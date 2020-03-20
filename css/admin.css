@@ -1,0 +1,210 @@
+body{
+    background-image: url(../images/5.png);
+    background-repeat: repeat;
+    background-color: #E5D9BB;
+}
+body{ zoom: 75%}
+input[type=radio] {
+    transform:scale(1.4);
+    opacity:0.9;
+    cursor:pointer;
+}
+nav{
+    box-shadow: 0px 0px 4px 0px rgba(86, 27, 27, 0.75);
+}
+
+.search{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#search{
+    margin-left: 10px;
+}
+
+.bg-light{
+    background-color: #e0e0e0!important;
+}
+
+.navbar-brand{
+    font-size: 35px;
+    font-family: 'Trade Winds', cursive;
+    text-shadow: 1px 1px #BCA38E;
+}
+
+.content img{
+    border: 1px solid #d0d0d0;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+}
+
+.content{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Oxanium', cursive;
+    border: 1px solid gray;
+    background-color: #E0E0E0;
+    text-shadow: 1px 1px #BCA38E;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin-left: 90px;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400);
+
+form {
+    width: 100%;
+    height: 75px;
+}
+.insert{
+    background-color: #d2d2d2;
+    outline: none !important;
+    margin-left: 15px;
+    color: #000000;
+    font-size: 18px;
+    text-shadow: 1px 1px #BCA38E;
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
+}
+
+form img {
+    width: 20px;
+    border-radius: 50px;
+    float: left;
+    border: 1px solid #d0d0d0;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+}
+
+.logout {
+    font-size: .8em;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    right: -10px;
+    bottom: 0px;
+    overflow: hidden;
+    letter-spacing: 3px;
+    opacity: 0;
+    transition: opacity .45s;
+    -webkit-transition: opacity .35s;
+    text-decoration: none;
+}
+
+.button {
+    text-decoration: none;
+    float: right;
+    padding: 12px;
+    margin: 15px;
+    color: black;
+    width: 13.5%;
+    background-color: #fff;
+    transition: width .35s;
+    -webkit-transition: width .35s;
+    overflow: hidden;
+    border: 1px solid #d0d0d0;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+}
+
+form a:hover {
+    width: 37%;
+}
+
+form a:hover .logout{
+    opacity: .9;
+}
+
+a {
+    text-decoration: none;
+}
+
+.leftBlock{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Oxanium', cursive;
+    border: 1px solid gray;
+    background-color: #E0E0E0;
+    text-shadow: 1px 1px #BCA38E;
+    border-radius: 10px;
+    height: 300px;
+    margin-left: 90px;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+}
+
+.categoriesBtn{
+    background-color: #d2d2d2;
+    outline: none !important;
+    border-radius: 14px;
+    color: #000000;
+    text-shadow: 1px 1px #BCA38E;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+}
+
+.categoriesBlock a{
+    text-decoration: none;
+}
+
+.categoriesBlock{
+    margin-top: 54px;
+    outline: none;
+    border: none;
+}
+
+.forContent{
+    margin: 30px 0 0 100px;
+    text-align: center;
+    font-family: 'Oxanium', cursive;
+    font-size: 20px;
+    border: 1px solid gray;
+    height: 1083px;
+    background-color: #E0E0E0;
+    text-shadow: 1.5px 1.5px #BCA38E;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+}
+
+.forContent h1{
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+.forContent .form1{
+    margin-top: 50px;
+}
+
+.divForAllInfo{
+    display: flex;
+}
+
+select{
+    height: 35px;
+}
+
+.forPagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.page-link{
+    background-color: #d2d2d2 !important;
+    border-radius: 14px;
+    color: #212529;
+    text-shadow: 1px 1px #BCA38E;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+    padding: 0.3rem 0.75rem!important;
+}
+
+.page-link:focus{
+    color: #e2e2e2!important;
+    box-shadow: 0px 0px 4px 0px rgba(33,37,41,1)!important;
+}
+
+.page-item.active .page-link {
+     background-color: #B2A17A !important;
+     border-color: #212529;
+}
+
+.page-item.disabled .page-link{
+    background-color: #e2e2e2!important;
+}
